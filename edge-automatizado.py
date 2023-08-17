@@ -9,7 +9,7 @@ opcoes = webdriver.EdgeOptions()
 wbEdge = webdriver.Edge(options=opcoes)
 
 # Navega para a página desejada
-wbEdge.get("https://www.bing.com/news/?form=ml11z9&crea=ml11z9&wt.mc_id=ml11z9&rnoreward=1&rnoreward=1")
+wbEdge.get("https://www.bing.com/news/?form=**********************")
 
 # Efetua o preenchimento do formulário para executar a pesquisa, limpando o campo após a pesquisa.
 with open("pesquisas.txt", "r", encoding='utf-8') as f:
